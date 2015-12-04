@@ -1,0 +1,8 @@
+.add-smily{
+	cursor: pointer;
+}
+img.wp-smiley{
+	width:24px!important;
+	height:auto!important;
+	max-height: none !important;
+}
