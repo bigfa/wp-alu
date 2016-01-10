@@ -1,9 +1,9 @@
 <?php
 
 function alu_scripts(){
-    wp_enqueue_style( 'wpl', ALU_URL . "/static/css/style.css" , array(), ALU_VERSION );
+    wp_enqueue_style( 'alu', ALU_URL . "/static/css/style.css" , array(), ALU_VERSION );
     wp_enqueue_script('jquery');
-    wp_enqueue_script( 'wpl', ALU_URL . "/static/js/index.js" , array(), ALU_VERSION );
+    wp_enqueue_script( 'alu', ALU_URL . "/static/js/index.js" , array(), ALU_VERSION );
 }
 add_action('wp_enqueue_scripts', 'alu_scripts', 20, 1);
 
