@@ -12,3 +12,9 @@ WordPress 阿鲁表情插件
 
 
 [文章地址]( https://fatesinger.com/77278)
+
+## 更新日志
+
+### 1.0.1
+
++ 使用原生JS，移除JQUERY
