@@ -18,7 +18,7 @@ function alu_get_wpsmiliestrans() {
     $wpsmilies = array_unique($wpsmiliestrans);
     foreach ($wpsmilies as $alt => $src_path) {
         //$emoji = str_replace(array('&#x', ';'), '', wp_encode_emoji($src_path));
-        $output .= '<a class="add-smily" data-action="addSmily" data-smilies="' . $alt . '"><img class="wp-smiley" src="//static.fatesinger.com/_/smilies/' . $src_path .'" /></a>';
+        $output .= '<a class="add-smily" data-action="addSmily" data-smilies="' . $alt . '"><img class="wp-smiley" src="' . ALU_URL . '/static/img/' . $src_path .'" /></a>';
     }
     return $output;
 }
