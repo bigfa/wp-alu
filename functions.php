@@ -16,6 +16,7 @@ function alu_smilies_src($img_src, $img, $siteurl) {
 function alu_get_wpsmiliestrans() {
     global $wpsmiliestrans;
     $wpsmilies = array_unique($wpsmiliestrans);
+    $output = '';
     foreach ($wpsmilies as $alt => $src_path) {
         //$emoji = str_replace(array('&#x', ';'), '', wp_encode_emoji($src_path));
         $output .= '<a class="add-smily" data-action="addSmily" data-smilies="' . $alt . '"><img class="wp-smiley" src="' . ALU_URL . '/static/img/' . $src_path .'" /></a>';
