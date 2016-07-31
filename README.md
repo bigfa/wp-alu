@@ -8,7 +8,7 @@ WordPress 阿鲁表情插件
 
 否则在相应的地方使用如下代码调用
 
-`<?php echo alu_get_wpsmiliestrans();?>`
+`<p class="comment-form-smilies"><?php echo alu_get_wpsmiliestrans();?></p>`
 
 
 [文章地址]( https://fatesinger.com/77278)
