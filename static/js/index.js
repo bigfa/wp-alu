@@ -3,8 +3,9 @@ document.addEventListener('DOMContentLoaded', function(){
     if ( !aluContainer ) return;
     aluContainer.addEventListener('click',function(e){
     var myField,
-        _self = e.target.dataset.smilies ? e.target : e.target.parentNode,
-        tag = ' ' + _self.dataset.smilies + ' ';
+        _self = e.target.dataset.smilies ? e.target : e.target.parentNode;
+        if ( typeof _self.dataset.smilies == 'undefined' ) return;
+        var tag = ' ' + _self.dataset.smilies + ' ';
         if (document.getElementById('comment') && document.getElementById('comment').type == 'textarea') {
             myField = document.getElementById('comment')
         } else {
