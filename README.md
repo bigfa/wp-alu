@@ -1,6 +1,6 @@
 # wp-alu
-WordPress 阿鲁表情插件
 
+WordPress 阿鲁表情插件
 
 ## 使用方法
 
@@ -10,14 +10,14 @@ WordPress 阿鲁表情插件
 
 `<p class="comment-form-smilies"><?php echo alu_get_wpsmiliestrans();?></p>`
 
-
-[文章地址]( https://fatesinger.com/77278)
+[文章地址](https://fatesinger.com/77278)
 
 ## 更新日志
 
 ### 1.0.2
-+ 调用本地文件
+
+-   调用本地文件
 
 ### 1.0.1
 
-+ 使用原生JS，移除JQUERY
+-   使用原生 JS，移除 JQUERY
